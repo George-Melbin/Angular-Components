@@ -1,0 +1,33 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "preserveValueImports": false,
+    "isolatedModules": false,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "strict": false,
+    "noFallthroughCasesInSwitch": false,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "@rapider/angular-components/*": [
+        "./*"
+      ]
+    },
+    "alwaysStrict": true,
+    "strictFunctionTypes": true
+  },
+  "angularCompilerOptions": {
+    "strictInputAccessModifiers": true,
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "enableResourceInlining": true,
+    "fullTemplateTypeCheck": true,
+    "strictTemplates": true,
+    "strictInjectionParameters": true
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}

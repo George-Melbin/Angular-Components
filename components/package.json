@@ -1,0 +1,14 @@
+{
+  "name": "@rapider/angular-components",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "ng-zorro-antd": "^19.0.0",
+    "@angular/material": "^19.0.4"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
